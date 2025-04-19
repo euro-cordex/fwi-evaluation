@@ -1,3 +1,6 @@
+
+<img src="https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png" width="150" align="right"/>
+
 # Fire Weather Index Evaluation
 
 This repository is intended to centralize the coordination of the Fire Weather Index study, as part of the broader [EURO-CORDEX joint evaluation](https://github.com/euro-cordex/joint-evaluation) effort.
