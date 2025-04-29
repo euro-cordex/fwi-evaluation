@@ -28,7 +28,7 @@ availableModels <- function(do.plot = FALSE) {
     url <- "https://raw.githubusercontent.com/euro-cordex/joint-evaluation/refs/heads/main/catalog.csv"
     data <- read.csv(url)
     hourly.fwi <- subset(data,
-                     subset = frequency %in% "1hr" & variable_id %in% c("hurs", "tas", "sfcWind", "pr"))
+                         subset = frequency %in% c("1hr","fx") & variable_id %in% c("hurs", "tas", "sfcWind", "pr", "sftlf"))
     # Grouped summary
     hf <- hourly.fwi %>% group_by(institution_id, driving_source_id, driving_experiment_id, source_id) 
     ids <- c("project_id", "mip_era", "activity_id", "domain_id", "institution_id",
@@ -40,17 +40,21 @@ availableModels <- function(do.plot = FALSE) {
     ## Label vars as 'var_id-1hr'
     hf1[["var_freq"]] <- paste(hf1$variable_id, hf1$frequency, sep = "-")
     binary_matrix <- table(hf1$var_freq, hf1$source_id)
+    # Handle exceptions
     if (do.plot) {
         # matrix as data.frame (for plotting)
         binary_df <- as.data.frame(as.table(binary_matrix))
-        graph <- ggplot(binary_df, aes(Var1, Var2)) +
-        geom_tile(aes(fill = Freq), color = "gray30") +
-        scale_fill_gradient(low = "white", high = "darkblue", guide = "none") +
-        labs(x = NULL, y = NULL, fill = "Frequency",
-             title = paste("Checked on", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"))) +
-        theme_minimal() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
-              axis.text.y = element_text(size = 12))
+        ## Handle exceptions
+        binary_df$Freq <- ifelse(is.na(binary_df$Freq), 0, binary_df$Freq)
+        binary_df$Freq <- ifelse(binary_df$Freq > 1, 1, binary_df$Freq)
+        graph <- ggplot2::ggplot(binary_df, aes(Var1, Var2)) +
+                                 geom_tile(aes(fill = factor(Freq)), color = "grey", size = .1) +
+                                 scale_fill_manual(values = c("0" = "white", "1" = "#4682b4"), guide = "none") +
+                                 labs(x = NULL, y = NULL, fill = "Frequency",
+                                      title = paste("Checked on", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"))) +
+                                 theme_minimal() +
+                                 theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+                                       axis.text.y = element_text(size = 12))
         print(graph)
         }
     which(colSums(binary_matrix) == 4L) %>% names()
