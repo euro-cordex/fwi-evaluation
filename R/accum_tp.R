@@ -9,9 +9,11 @@ source("R/helpers.R")
 
 ## Climate4R
 library(loadeR)
+library(loadeR.2nc)
 # library(visualizeR)
 
-library(loadeR.2nc)
+## Other R utils
+library(magrittr)
 
 data.dir <- "/mnt//CORDEX_CMIP6_tmp//sim_data//CORDEX-CMIP6//DD//EUR-12//"
 
@@ -50,13 +52,13 @@ for (i in 1:length(models)) {
             message("Performing accumulation 12-12")
             tpa <- accum_pr(tp)
             tp <- NULL
-            gc()
+            invisible(gc())
             
             ## Write intermediate netCDF
             grid2nc(tpa, NetCDFOutFile = paste(model.dir, file_name, sep = "/"))
             message("SUCCESS!\nNetcCDF file written to ", file_name)
             tpa <- NULL
-            gc()
+            invisible(gc())
         }
     }
 }
