@@ -57,7 +57,7 @@ availableModels <- function(do.plot = FALSE) {
                                        axis.text.y = element_text(size = 12))
         print(graph)
         }
-    which(colSums(binary_matrix) == 4L) %>% names()
+    which(colSums(binary_matrix) == 5L) %>% names()
 }
 
 ##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
