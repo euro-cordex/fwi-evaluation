@@ -5,7 +5,10 @@
 
 This repository is intended to centralize the coordination of the Fire Weather Index study, as part of the broader [EURO-CORDEX joint evaluation](https://github.com/euro-cordex/joint-evaluation) effort.
 
-The repo is under construction. If you have any topics, questions or suggestions, please don't hesitate to open a new issue!
+<img src="docs/img/fwi_euro_011.png" width="750"/>
+
+
+The repo is under construction. If you have any topics, questions or suggestions, please don't hesitate to open a [new issue](https://github.com/euro-cordex/fwi-evaluation/issues)!
 
 ## Preparing a working environment
 
