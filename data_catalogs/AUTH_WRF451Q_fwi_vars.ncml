@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="hurs"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198001010000-198012312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198101010000-198112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198201010000-198212312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198301010000-198312312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198401010000-198412312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198501010000-198512312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198601010000-198612312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198701010000-198712312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198801010000-198812312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198901010000-198912312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199001010000-199012312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199101010000-199112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/hurs/v20250630/hurs_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199201010000-199212312300.nc" ncoords="8784"/>
+		</aggregation>
+		</netcdf>
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="sfcWind"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198001010000-198012312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198101010000-198112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198201010000-198212312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198301010000-198312312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198401010000-198412312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198501010000-198512312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198601010000-198612312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198701010000-198712312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198801010000-198812312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198901010000-198912312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199001010000-199012312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199101010000-199112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/sfcWind/v20250630/sfcWind_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199201010000-199212312300.nc" ncoords="8784"/>
+		</aggregation>
+		</netcdf>
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="tas"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198001010000-198012312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198101010000-198112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198201010000-198212312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198301010000-198312312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198401010000-198412312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198501010000-198512312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198601010000-198612312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198701010000-198712312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198801010000-198812312300.nc" ncoords="8784"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_198901010000-198912312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199001010000-199012312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199101010000-199112312300.nc" ncoords="8760"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/sim_data/CORDEX-CMIP6/DD/EUR-12/AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr/tas/v20250630/tas_EUR-12_ERA5_evaluation_r1i1p1f1_AUTH_WRF451Q_v1-r3_1hr_199201010000-199212312300.nc" ncoords="8784"/>
+		</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>

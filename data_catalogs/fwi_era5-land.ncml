@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="FWI"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1950/FWI_era5-land_1950.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1951/FWI_era5-land_1951.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1952/FWI_era5-land_1952.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1953/FWI_era5-land_1953.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1954/FWI_era5-land_1954.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1955/FWI_era5-land_1955.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1956/FWI_era5-land_1956.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1957/FWI_era5-land_1957.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1958/FWI_era5-land_1958.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1959/FWI_era5-land_1959.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1960/FWI_era5-land_1960.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1961/FWI_era5-land_1961.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1962/FWI_era5-land_1962.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1963/FWI_era5-land_1963.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1964/FWI_era5-land_1964.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1965/FWI_era5-land_1965.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1966/FWI_era5-land_1966.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1967/FWI_era5-land_1967.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1968/FWI_era5-land_1968.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1969/FWI_era5-land_1969.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1970/FWI_era5-land_1970.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1971/FWI_era5-land_1971.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1972/FWI_era5-land_1972.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1973/FWI_era5-land_1973.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1974/FWI_era5-land_1974.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1975/FWI_era5-land_1975.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1976/FWI_era5-land_1976.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1977/FWI_era5-land_1977.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1978/FWI_era5-land_1978.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1979/FWI_era5-land_1979.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1980/FWI_era5-land_1980.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1981/FWI_era5-land_1981.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1982/FWI_era5-land_1982.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1983/FWI_era5-land_1983.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1984/FWI_era5-land_1984.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1985/FWI_era5-land_1985.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1986/FWI_era5-land_1986.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1987/FWI_era5-land_1987.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1988/FWI_era5-land_1988.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1989/FWI_era5-land_1989.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1990/FWI_era5-land_1990.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1991/FWI_era5-land_1991.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1992/FWI_era5-land_1992.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1993/FWI_era5-land_1993.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1994/FWI_era5-land_1994.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1995/FWI_era5-land_1995.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1996/FWI_era5-land_1996.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1997/FWI_era5-land_1997.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1998/FWI_era5-land_1998.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/1999/FWI_era5-land_1999.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2000/FWI_era5-land_2000.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2001/FWI_era5-land_2001.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2002/FWI_era5-land_2002.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2003/FWI_era5-land_2003.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2004/FWI_era5-land_2004.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2005/FWI_era5-land_2005.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2006/FWI_era5-land_2006.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2007/FWI_era5-land_2007.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2008/FWI_era5-land_2008.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2009/FWI_era5-land_2009.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2010/FWI_era5-land_2010.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2011/FWI_era5-land_2011.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2012/FWI_era5-land_2012.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2013/FWI_era5-land_2013.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2014/FWI_era5-land_2014.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2015/FWI_era5-land_2015.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2016/FWI_era5-land_2016.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2017/FWI_era5-land_2017.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2018/FWI_era5-land_2018.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2019/FWI_era5-land_2019.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2020/FWI_era5-land_2020.nc" ncoords="366"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2021/FWI_era5-land_2021.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2022/FWI_era5-land_2022.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2023/FWI_era5-land_2023.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/aux_data/era5-land/derived/daily/fwi/2024/FWI_era5-land_2024.nc" ncoords="366"/>
+		</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>

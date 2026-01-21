@@ -31,29 +31,36 @@ for (i in 1:length(models)) {
         dir.create(model.dir)
         
         ## list files
+        ## Define a pattern that matches 1980 to 2020 (discard some model outputs starting earlier)
         lf <- list.files(data.dir,
                          recursive = TRUE,
-                         pattern = paste0("evaluation.*", model, "_.*1hr"),
-                         full.names = TRUE) %>% grep("/pr_.*nc$", ., value = TRUE) 
-        
+                         pattern = paste0("evaluation.*", model, "_.*1hr*(.*_198[0-9]|.*_199[0-9]|.*_200[0-9]|.*_201[0-9]|.*_2020)"),
+                         full.names = TRUE) %>% grep("/pr_.*nc$", ., value = TRUE)
         ## read file by file and perform accumulation
+        season <- list(2:6, 7:11)
         for (j in 1:length(lf)) {
             ds <- lf[j]
             pattern <- ".*/([^/]+)$"
             file_name <- sub(pattern, "\\1", ds)
             file_name <- sub("1hr", "day", file_name)
             
-            message("[", Sys.time(), "] Reading data file ", j, " out of ", length(lf))
-            suppressMessages(
-                tp <- loadGridData(ds, var = "pr",
-                                   dictionary = "dictionary.dic",
-                                   season = 5:10)
+            message("[", Sys.time(), "] Processing data file ", j, " out of ", length(lf))
+            ## Intermediate step: split data load in two periods to avoid memory exhaustion
+            aux <- lapply(1:length(season), function(x) {
+                        suppressMessages(
+                            loadGridData(ds, var = "pr",
+                                         dictionary = "../dictionary.dic",
+                                         season = season[[x]])
+                    )
+                }
             )
+            tp <- do.call("bindGrid", c(aux, dimension= "time"))
+            aux <- NULL
+            invisible(gc())
             message("Performing accumulation 12-12")
-            tpa <- accum_pr(tp)
+            tpa <- accum_pr(tp) 
             tp <- NULL
             invisible(gc())
-            
             ## Write intermediate netCDF
             grid2nc(tpa, NetCDFOutFile = paste(model.dir, file_name, sep = "/"))
             message("SUCCESS!\nNetcCDF file written to ", file_name)

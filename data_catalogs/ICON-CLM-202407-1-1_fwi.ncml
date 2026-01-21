@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="FWI"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195001021200-195012311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195101021200-195112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195201021200-195212311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195301021200-195312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195401021200-195412311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195501021200-195512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195601021200-195612311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195701021200-195712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195801021200-195812311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_195901021200-195912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196001021200-196012311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196101021200-196112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196201021200-196212311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196301021200-196312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196401021200-196412311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196501021200-196512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196601021200-196612311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196701021200-196712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196801021200-196812311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_196901021200-196912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197001021200-197012311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197101021200-197112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197201021200-197212311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197301021200-197312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197401021200-197412311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197501021200-197512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197601021200-197612311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197701021200-197712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197801021200-197812311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_197901021200-197912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198001021200-198012311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198101021200-198112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198201021200-198212311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198301021200-198312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198401021200-198412311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198501021200-198512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198601021200-198612311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198701021200-198712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198801021200-198812311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_198901021200-198912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199001021200-199012311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199101021200-199112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199201021200-199212311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199301021200-199312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199401021200-199412311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199501021200-199512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199601021200-199612311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199701021200-199712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199801021200-199812311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_199901021200-199912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200001021200-200012311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200101021200-200112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200201021200-200212311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200301021200-200312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200401021200-200412311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200501021200-200512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200601021200-200612311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200701021200-200712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200801021200-200812311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_200901021200-200912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201001021200-201012311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201101021200-201112311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201201021200-201212311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201301021200-201312311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201401021200-201412311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201501021200-201512311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201601021200-201612311200.nc" ncoords="365"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201701021200-201712311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201801021200-201812311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_201901021200-201912311200.nc" ncoords="364"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/ICON-CLM-202407-1-1/fwi/FWI_EUR-12_ERA5_evaluation_r1i1p1f1_CLMcom-Hereon_ICON-CLM-202407-1-1_v1-r1_day_202001021200-202012311200.nc" ncoords="365"/>
+		</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
