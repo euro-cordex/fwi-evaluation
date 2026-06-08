@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+		<aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+		<variableAgg name="pr"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1980010100-1981010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1981010100-1982010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1982010100-1983010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1983010100-1984010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1984010100-1985010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1985010100-1986010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1986010100-1987010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1987010100-1988010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1988010100-1989010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1989010100-1990010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1990010100-1991010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1991010100-1992010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1992010100-1993010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1993010100-1994010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1994010100-1995010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1995010100-1996010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1996010100-1997010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1997010100-1998010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1998010100-1999010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_1999010100-2000010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2000010100-2001010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2001010100-2002010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2002010100-2003010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2003010100-2004010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2004010100-2005010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2005010100-2006010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2006010100-2007010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2007010100-2008010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2008010100-2009010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2009010100-2010010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2010010100-2011010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2011010100-2012010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2012010100-2013010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2013010100-2014010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2014010100-2015010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2015010100-2016010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2016010100-2017010100.nc" ncoords="303"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2017010100-2018010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2018010100-2019010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2019010100-2020010100.nc" ncoords="302"/>
+			<netcdf location="/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/data_tmp/IDL-FCUL_WRF451Q/pr12/pr_EUR-12_ERA5_evaluation_r1i1p1f1_IDL-FCUL_WRF451Q_v1-r1_day_2020010100-2021010100.nc" ncoords="303"/>
+		</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
