@@ -1,4 +1,4 @@
-source("R/setup_conda_python.R")
+source("/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/R/setup_conda_python.R")
 
 require(transformeR)
 
@@ -120,7 +120,8 @@ availableModels <- function(do.plot = FALSE,
         graph <- ggplot2::ggplot(df, aes(x = var_freq, y = simulation)) +
           geom_tile(aes(fill = factor(present)), color = "grey", linewidth = .1) +
           scale_fill_manual(values = c("0" = "white", "1" = "#4682b4"), guide = "none") +
-          labs(x = NULL, y = "", title = "Input FWI data availability") +
+          labs(x = NULL, y = "", 
+               title = paste0("Input FWI data availability\n", format(Sys.time(), "%Y-%m-%d %H:%M:%S")," UTC")) +
           theme_minimal() +
           theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
                 axis.text.y = element_text(size = 8))

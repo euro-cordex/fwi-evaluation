@@ -1,0 +1,40 @@
+nohup: ignoring input
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Loading required package: transformeR
+
+    _______   ____  ___________________  __  ________ 
+   / ___/ /  / /  |/  / __  /_  __/ __/ / / / / __  / 
+  / /  / /  / / /|_/ / /_/ / / / / __/ / /_/ / /_/_/  
+ / /__/ /__/ / /  / / __  / / / / /__ /___  / / \ \ 
+ \___/____/_/_/  /_/_/ /_/ /_/  \___/    /_/\/   \_\ 
+ 
+      github.com/SantanderMetGroup/climate4R
+
+transformeR version 2.2.2 (2023-10-26) is loaded
+WARNING: Your current version of transformeR (v2.2.2) is not up-to-date
+Get the latest stable version (2.2.5) using <devtools::install_github('SantanderMetGroup/transformeR')>
+Please see 'citation("transformeR")' to cite this package.
+Loading required package: rJava
+Loading required package: loadeR.java
+Java version 11x amd64 by Azul Systems, Inc. detected
+NetCDF Java Library v4.6.0-SNAPSHOT (23 Apr 2015) loaded and ready
+Loading required package: climate4R.UDG
+climate4R.UDG version 0.2.6 (2023-06-26) is loaded
+Please use 'citation("climate4R.UDG")' to cite this package.
+loadeR version 1.8.1 (2023-06-22) is loaded
+WARNING: Your current version of loadeR (v1.8.1) is not up-to-date
+Get the latest stable version (1.8.2) using <devtools::install_github(c('SantanderMetGroup/climate4R.UDG','SantanderMetGroup/loadeR'))>
+Please use 'citation("loadeR")' to cite this package.
+CLMcom-CMCC_CCLM6-0-1-URB model already processed. Skipping...
+[2026-04-14 18:46:32.323073] Processing model CLMcom-Hereon_CCLM6-0-1
+[2026-04-14 18:46:32.917562] Processing data file 1 out of 41
+Error in value[[3L]](cond) : Dictionary not found
+Calls: lapply ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+In addition: Warning messages:
+1: In file(file, "rt") :
+  cannot open file '../dictionary.dic': No such file or directory
+2: In file(file, "rt") :
+  cannot open file '../dictionary.dic': No such file or directory
+Execution halted

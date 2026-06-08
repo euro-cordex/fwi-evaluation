@@ -30,10 +30,15 @@ data.dir <- "/mnt//CORDEX_CMIP6_tmp//sim_data//CORDEX-CMIP6//DD//EUR-12//"
 #                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
 #                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
 
-model.list <- list("CLMcom-KUL_CCLM6-0-1-URB-ESG" = "CLMcom-KUL/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB-ESG/v1-r1/1hr",
-                   "AUTH_WRF451Q" = "AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr",
-                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
-                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
+#model.list <- list("CLMcom-KUL_CCLM6-0-1-URB-ESG" = "CLMcom-KUL/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB-ESG/v1-r1/1hr", ## Hecho
+#                   "AUTH_WRF451Q" = "AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr", ## solo hasta 2005
+#                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
+#                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
+
+
+model.list <- list("IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr")
+
+#                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
 
 
 for (i in 1:length(model.list)) {

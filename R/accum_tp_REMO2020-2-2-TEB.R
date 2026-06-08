@@ -1,7 +1,7 @@
-system("conda activate climate4R")
+#system("conda activate climate4R")
 
 ## Expand JVM memory
-options(java.parameters = "-Xmx8000m")
+options(java.parameters = "-Xmx15G")
 
 ## Internal helpers
 setwd("/mnt/CORDEX_CMIP6_tmp/user_tmp/jbediajimenez/")
@@ -30,11 +30,13 @@ data.dir <- "/mnt//CORDEX_CMIP6_tmp//sim_data//CORDEX-CMIP6//DD//EUR-12//"
 #                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
 #                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
 
-model.list <- list("CLMcom-KUL_CCLM6-0-1-URB-ESG" = "CLMcom-KUL/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB-ESG/v1-r1/1hr",
-                   "AUTH_WRF451Q" = "AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr",
-                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
-                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
+#model.list <- list("CLMcom-KUL_CCLM6-0-1-URB-ESG" = "CLMcom-KUL/ERA5/evaluation/r1i1p1f1/CCLM6-0-1-URB-ESG/v1-r1/1hr", ## Hecho
+#                   "AUTH_WRF451Q" = "AUTH/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r3/1hr", ## solo hasta 2005
+#                   "IDL-FCUL_WRF451Q" = "IDL-FCUL/ERA5/evaluation/r1i1p1f1/WRF451Q/v1-r1/1hr",
+#                   "KNMI-RACMO22E" = "KNMI/ERA5/evaluation/r1i1p1f1/RACMO23E/v1-r1/1hr")
 
+
+model.list <- list("REMO2020-2-2-TEB" = "GERICS/ERA5/evaluation/r1i1p1f1/REMO2020-2-2-TEB/v1-r1/1hr/pr/v20251028")
 
 for (i in 1:length(model.list)) {
     model <- names(model.list)[i]
@@ -69,11 +71,13 @@ for (i in 1:length(model.list)) {
         ## list files
         ## Define a pattern that matches 1980 to 2020 (discard some model outputs starting earlier)
         dir.path <- paste0(data.dir, model.list[[i]])
+        # lf <- list.files(dir.path, full.names = TRUE) %>% grep("/pr_.*nc$", ., value = TRUE)
         lf <- list.files(dir.path,
                          recursive = TRUE,
-                         pattern = paste0("evaluation.*", 
-                                          model, "_.*1hr*(.*_198[0-9]|.*_199[0-9]|.*_200[0-9]|.*_201[0-9]|.*_2020)"),
+                         pattern = "_.*1hr*(.*_198[0-9]|.*_199[0-9]|.*_200[0-9]|.*_201[0-9]|.*_2020)",
                          full.names = TRUE) %>% grep("/pr_.*nc$", ., value = TRUE)
+
+
         ## read file by file and perform accumulation
         season <- list(2:6, 7:11)
         for (j in 1:length(lf)) {
