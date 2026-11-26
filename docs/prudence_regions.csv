@@ -1,0 +1,12 @@
+abbreviation,name,lon_min,lon_max,lat_min,lat_max
+BI,British Isles,-10,2,50,59
+SC,Scandinavia,5,30,55,70
+FR,France,-5,5,44,50
+ME,Mid-Europe,2,16,48,55
+AL,Alps,5,15,44,48
+EA,Eastern Europe,16,30,44,55
+IP,Iberian Peninsula,-10,3,36,44
+MD,Mediterranean,3,25,36,44
+NEE,North-Eastern Europe,30,42,55,70
+EAP,Eastern Europe Plain,30,42,44,55
+MBS,Eastern Mediterranean Black Sea,25,42,36,44
